@@ -1,0 +1,27 @@
+platform :ios, '11.2'
+
+target 'FlashVPN' do
+  use_frameworks!
+  pod 'PlainPing'
+  pod 'lottie-ios'
+  pod 'Windless'
+  
+  pod 'AppsFlyerFramework'
+  pod 'FBSDKCoreKit'
+  pod 'OneSignal'
+  
+  pod 'ApphudSDK'
+  pod 'Amplitude'
+  
+  pod 'Firebase/Core'
+  pod 'Firebase/RemoteConfig'
+  
+  pod 'Branch'
+  pod 'myTrackerSDK'
+  
+end
+
+target 'OneSignalNotificationServiceExtension' do
+  use_frameworks!
+  pod 'OneSignal'
+end

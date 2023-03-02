@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad11_0rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flashpath" translatesAutoresizingMaskIntoConstraints="NO" id="ac0-Dj-Bqc">
+                                <rect key="frame" x="-70" y="-700" width="1304" height="1839"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flashicon" translatesAutoresizingMaskIntoConstraints="NO" id="SyG-BF-2kN">
+                                <rect key="frame" x="271" y="150" width="292" height="292"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flash VPN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="20c-88-7SE">
+                                <rect key="frame" x="271" y="457" width="292" height="34"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="29"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.11764705882352941" green="0.14901960784313725" blue="0.36078431372549019" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="SyG-BF-2kN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="BHQ-xA-wgJ"/>
+                            <constraint firstItem="20c-88-7SE" firstAttribute="top" secondItem="SyG-BF-2kN" secondAttribute="bottom" constant="15" id="L5v-lJ-kpJ"/>
+                            <constraint firstItem="20c-88-7SE" firstAttribute="leading" secondItem="SyG-BF-2kN" secondAttribute="leading" id="MJh-Xf-izI"/>
+                            <constraint firstItem="20c-88-7SE" firstAttribute="trailing" secondItem="SyG-BF-2kN" secondAttribute="trailing" id="NXh-Jg-0bm"/>
+                            <constraint firstItem="SyG-BF-2kN" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.35" id="QmP-hZ-EYJ"/>
+                            <constraint firstItem="ac0-Dj-Bqc" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="-380" id="Tq7-CQ-XWE">
+                                <variation key="heightClass=regular-widthClass=regular" constant="-700"/>
+                            </constraint>
+                            <constraint firstItem="SyG-BF-2kN" firstAttribute="width" secondItem="SyG-BF-2kN" secondAttribute="height" id="U7n-cv-3J4"/>
+                            <constraint firstItem="ac0-Dj-Bqc" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-70" id="UWd-Gn-FpK"/>
+                            <constraint firstItem="SyG-BF-2kN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="XDk-zf-yKK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ac0-Dj-Bqc" secondAttribute="bottom" constant="35" id="bxP-j1-DdG"/>
+                            <constraint firstAttribute="trailing" secondItem="ac0-Dj-Bqc" secondAttribute="trailing" constant="-200" id="fCg-4c-ot2">
+                                <variation key="heightClass=regular-widthClass=regular" constant="-400"/>
+                            </constraint>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="flashicon" width="500" height="500"/>
+        <image name="flashpath" width="500" height="715"/>
+    </resources>
+</document>
